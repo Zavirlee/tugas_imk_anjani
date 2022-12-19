@@ -1,0 +1,167 @@
+body{
+    margin: 0;
+}
+header{
+    background-color: rgb(71, 13, 33);
+    color: white;
+    padding: 15px;
+
+}
+h1{
+    text-align: center;
+    
+    font-family: 'Bungee Inline', cursive;
+    font-size: 30px;
+}
+.card{
+    background-color: rgb(71, 13, 33);
+    width: 20cm;
+    margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    border-radius: 20px;
+    overflow: hidden;
+    float: right;
+    
+}
+
+img{
+    width:260px;
+    height: 400px;
+    float: right;
+
+}
+.isi{
+    float: left;
+    margin: 25px;
+    margin-left: 30px;
+
+}
+.isi2{
+    background-color: rgb(208, 128, 128);
+    border-radius: 20px;
+    padding-left: 15px;
+    height: 80px;
+    color: white;
+}
+footer{
+    background-color: rgb(71, 13, 33);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    bottom: 0px;
+}
+.nama{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    margin-top: 15px;
+    font-family: 'Shrikhand', cursive;
+    letter-spacing: 3px;
+    font-size: 25px;
+
+}
+h4{
+    padding: 5px;
+    font-weight: bold;
+    font-family: 'Chewy', cursive;
+    letter-spacing: 3px;
+    margin-bottom: 0;
+}
+p{
+    padding: 5px;
+    margin-top: 5px;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size:20px;
+    
+}
+.konten{
+    padding: 5px;
+    font-family: 'Prompt', sans-serif;
+}
+.bawah{
+    font-family: 'Fugaz One', cursive;
+}
+.sidebar {
+    margin: 100px 0 100px 0;
+    padding: 0;
+    width: 200px;
+    background-color: rgb(71, 13, 33);
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    float: left;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 30px;
+  }
+  
+  .sidebar a {
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+  }
+   
+  .sidebar a.active {
+    background-color: rgb(208, 128, 128);
+    color: white;
+  }
+  
+  .sidebar a:hover:not(.active) {
+    background-color: rgb(208, 128, 128);
+    color: white;
+  }
+  .main{
+    display: flex;
+    flex-direction: row;
+  }
+  table, th, td {
+    border: 1px solid rgb(34, 29, 29);
+    border-collapse: collapse;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 10px;
+      }
+  th, td {
+    color: white;
+    background-color: rgb(208, 128, 128);
+    font-size: 20px;
+    border-spacing: 5px;
+    
+  }
+ .juara{
+    width: 250px;
+    height: 200px;
+    border-radius: 50%;
+    padding: 10px;
+  }
+  .acv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    width: 1300px;
+  }
+  .isi23{
+    background-color: rgb(208, 128, 128);
+    color: white;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    margin : 20px 10px 20px 60px;
+
+    }
+  .isi234{
+    background-color: rgb(208, 128, 128);
+    color: white;
+    float: right;
+    margin: 20px 10px 10px 70px;
+
+    text-align: center;
+    }
+    .Contact{
+        padding: 50px;
+        margin: 40px 40px 200px 200px;
+    }
